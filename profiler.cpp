@@ -105,7 +105,7 @@ void Profiler::print_all(std::ostream& os) {
        ++itr) {
     std::string name(itr->first);
     std::vector<ProfilerEntry>& name_entries(itr->second);
-    for (size_t i=0; i < name_entries.size(); ++i) {
+    for (size_t i=0, sz=name_entries.size(); i < sz; ++i) {
       os << name_entries[i].start_time << "; ";
       os << name << "; ";
       os << (name_entries[i].end_time - name_entries[i].start_time);
