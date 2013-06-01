@@ -1,11 +1,5 @@
-========
-Octogit
-========
 
-This repository has been created with Octogit.
+dm_profiler
+===========
 
-.. image:: http://myusuf3.github.com/octogit/assets/img/readme_image.png
-
-Author
-======
-Mahdi Yusuf (@myusuf3)
+A very simple walltime profiler.
